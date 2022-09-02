@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="마요" />
+    <meta property="og:description" content="마요구경하실? 주인은 덤임" />
+    <meta property="og:image" content="마요마요마요.png" />
+    <title>마요 - 프로필 링크</title>
+    <style>
+      @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+      * {
+        font-family: "Pretendard", serif;
+      }
+      body {
+        background-color: #e5ddff;
+      }
+      .profile {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 100%;
+
+        border: 2px solid white;
+
+        background-image: url("KakaoTalk_20220903_023507297.jpg");
+        background-position: center;
+        background-size: cover;
+      }
+      .main {
+        color: gray;
+        font-size: 20px;
+
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+      .sub {
+        color: gray;
+        font-size: 13px;
+
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      .wrap {
+        width: 300px;
+        margin: 30px auto 0px auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrap > a {
+        width: 300px;
+        height: 50px;
+
+        background-color: white;
+        border-radius: 8px;
+
+        margin-bottom: 10px;
+
+        font-size: 16px;
+        font-weight: bold;
+        color: #c3bbdd;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+
+        box-shadow: 3px 3px 5px 0px gray;
+      }
+      .wrap > a:hover {
+        background-color: #e2e2e2;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="profile"></div>
+      <h1 class="main">내 이름은 송마요</h1>
+      <p class="sub">나랑 놀아줄래?</p>
+      <a target="_blank" href="https://www.instagram.com/mayo_nez0217/"
+        >마요인스타</a
+      >
+      <a target="_blank" href="https://www.instagram.com/o2_r_in/">마요주인1</a>
+      <a target="_blank" href="https://www.instagram.com/c1.xvxv/">마요주인2</a>
+    </div>
+  </body>
+</html>
